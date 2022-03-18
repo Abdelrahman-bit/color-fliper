@@ -1,0 +1,94 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+header{
+    background-color: white;
+    box-shadow: black 0px -18px 40px -6px;
+    height: 50px;
+}
+
+.navbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    color: #34e3e4;
+    letter-spacing: 4px;
+}
+.navbar div{
+    display: flex;
+    align-items: center;
+}
+.navbar div p{
+    margin: 10px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.fixed-color{
+    color: #34e3e4;
+}
+.navbar div p:hover{
+    cursor: pointer;
+    color: #34e3e4;
+}
+
+/* body */
+
+main{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main div{
+    display: flex;
+    height: 70px;
+    width: fit-content;
+    background-color: #333;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+main div p{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.simple-options{
+    font-size: larger;
+    margin: 30px;
+    font-weight: bold;
+}
+
+/* button style */
+
+.change-btn{
+    width: 140px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: .3s;
+}
+
+.change-btn:hover{
+    cursor: pointer;
+    background-color: #333;
+    color: white
+}
